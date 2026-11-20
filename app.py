@@ -1,6 +1,6 @@
 import stramlit as st
 from rag_engine import load_base,ask_rag
-st.set_page_config(page_title = 'SIET_chatbot",layout = "centered")
+st.set_page_config(page_title = 'SIET_Chatbot",layout = "centered")
 st.title("Shridevi institute of engineering and Technology - Chatbot")
 st.caption("ask anything about collge information...")
 st.caption("created by Lavanya") 
