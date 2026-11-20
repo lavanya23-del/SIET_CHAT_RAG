@@ -9,7 +9,7 @@ mykey = st.secrets["GROQ_API_KEY"]
                    
  @st.cache_resource
  def initiate_rag():
-   return load_base("01_College_information.pdf")
+   return load_base"")
    index,embed_model, chunks = initiate_rag()
 
    if "chat_hist" not in st.session_state:
